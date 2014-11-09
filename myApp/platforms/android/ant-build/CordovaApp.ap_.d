@@ -37,5 +37,7 @@
 /Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/assets/www/js \
 /Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/assets/www/css/index.css \
 /Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/assets/www/img/logo.png \
+/Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/assets/www/img/marker.png \
+/Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/assets/www/img/truck_marker_big.png \
 /Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/assets/www/js/index.js \
 /Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/ant-build/AndroidManifest.xml \
