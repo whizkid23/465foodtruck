@@ -1,9 +1,9 @@
-/Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/ant-build/classes.dex : \
-/Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/ant-build/classes/com/example/myApp/BuildConfig.class \
-/Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/ant-build/classes/com/example/myApp/CordovaApp.class \
-/Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/ant-build/classes/com/example/myApp/R$attr.class \
-/Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/ant-build/classes/com/example/myApp/R$drawable.class \
-/Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/ant-build/classes/com/example/myApp/R$string.class \
-/Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/ant-build/classes/com/example/myApp/R$xml.class \
-/Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/ant-build/classes/com/example/myApp/R.class \
-/Users/phalgunrangaraju/Desktop/foodtruckapp/465foodtruck/myApp/platforms/android/ant-build/dexedLibs/classes-c40eb1bb00f3b8e4d14f1b750d67f780.jar \
+C:\Users\E.Bragg\Documents\GitHub\465foodtruck\myApp\platforms\android\ant-build\classes.dex : \
+C:\Users\E.Bragg\Documents\GitHub\465foodtruck\myApp\platforms\android\ant-build\classes\com\example\myApp\BuildConfig.class \
+C:\Users\E.Bragg\Documents\GitHub\465foodtruck\myApp\platforms\android\ant-build\classes\com\example\myApp\CordovaApp.class \
+C:\Users\E.Bragg\Documents\GitHub\465foodtruck\myApp\platforms\android\ant-build\classes\com\example\myApp\R$attr.class \
+C:\Users\E.Bragg\Documents\GitHub\465foodtruck\myApp\platforms\android\ant-build\classes\com\example\myApp\R$drawable.class \
+C:\Users\E.Bragg\Documents\GitHub\465foodtruck\myApp\platforms\android\ant-build\classes\com\example\myApp\R$string.class \
+C:\Users\E.Bragg\Documents\GitHub\465foodtruck\myApp\platforms\android\ant-build\classes\com\example\myApp\R$xml.class \
+C:\Users\E.Bragg\Documents\GitHub\465foodtruck\myApp\platforms\android\ant-build\classes\com\example\myApp\R.class \
+C:\Users\E.Bragg\Documents\GitHub\465foodtruck\myApp\platforms\android\ant-build\dexedLibs\classes-95d5c65a9ce3b6b2224a2098bbc103d1.jar \

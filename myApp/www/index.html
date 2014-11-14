@@ -1,67 +1,44 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <style type="text/css">
-            html, body, #map-canvas { height: 1136px; width:640px; margin: 0; padding: 0;}
-        </style>
-        <title>FoodTrucks</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
 
-        <script type="text/javascript"
-            src="https://maps.googleapis.com/maps/api/js?sensor=false">
-        </script>
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-        <script type="text/javascript">
-      function initialize() {
-        var mapOptions = {
-          center: { lat: 40.107260, lng: -88.215225},
-          zoom: 14
-        };
-        var map = new google.maps.Map(document.getElementById('map-canvas'),
-            mapOptions);
-        var image = 'img/marker.png';
-        // To add the marker to the map, use the 'map' property
-        var marker1 = new google.maps.Marker({
-            position: new google.maps.LatLng(40.107260,-88.215225),
-            map: map,
-            animation: google.maps.Animation.DROP,
-            icon: image,
-            title:"Marker1"
-        });
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
 
-        var marker2 = new google.maps.Marker({
-            position: new google.maps.LatLng(40.112545,-88.225577),
-            map: map,
-            animation: google.maps.Animation.DROP,
-            icon: image,
-            title:"Marker2"
-        });
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
 
-        var marker3 = new google.maps.Marker({
-            position: new google.maps.LatLng(40.109534,-88.232057),
-            map: map,
-            animation: google.maps.Animation.DROP,
-            icon: image,
-            title:"Marker3"
-        });        
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
 
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-    </head>
-    <body>
-        <div id="map-canvas"></div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-        
-    </body>
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAnvJfCxDSE36J8IITLij5IwQ6kybNY7HU&sensor=true"></script>
+  </head>
+  <body ng-app="starter" animation="slide-left-right-ios7">
+    
+    <!-- 
+      The nav bar that will be updated as we navigate between views.
+    -->
+    <ion-nav-bar class="bar-stable nav-title-slide-ios7">
+      <ion-nav-back-button class="button-icon icon  ion-ios7-arrow-back">
+        Back
+      </ion-nav-back-button>
+    </ion-nav-bar>
+    <!-- 
+      The views will be rendered in the <ion-nav-view> directive below
+      Templates are in the /templates folder (but you could also
+      have templates inline in this html file if you'd like).
+    -->
+    <ion-nav-view></ion-nav-view>
+  </body>
 </html>
